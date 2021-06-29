@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Preferences</string>
+    <string-array name="sizeValues">
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+    </string-array>
+    <string-array name="sizeEntries">
+        <item>20dp</item>
+        <item>25dp</item>
+        <item>30dp</item>
+        <item>35dp</item>
+        <item>40dp</item>
+        <item>45dp</item>
+        <item>50dp</item>
+        <item>55dp</item>
+        <item>60dp</item>
+        <item>65dp</item>
+        <item>70dp</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

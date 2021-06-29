@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preferences for this App">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="DARK_MODE"
+            android:title="Dark mode" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="DARK_MODE"
+            android:key="DARK_GREY"
+            android:title="Grey mode" />
+        <EditTextPreference
+            android:key="DEFAULT_BUTTON_TEXT"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Default button text" />
+        <ListPreference
+            android:defaultValue="20"
+            android:entries="@array/sizeEntries"
+            android:entryValues="@array/sizeValues"
+            android:key="TEXT_SIZE"
+            android:title="Text Size" />
+    </PreferenceCategory>
+</PreferenceScreen>
